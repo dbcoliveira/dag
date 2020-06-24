@@ -7,3 +7,4 @@ TODO
 
 - CYPHER format support.
 - Search engine capability.
+- Simple http rest api.
