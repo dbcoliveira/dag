@@ -5,9 +5,11 @@ Exports the dag into DOT format: https://en.wikipedia.org/wiki/DOT_(graph_descri
 
 # example DOT output
 
-[[https://raw.githubusercontent.com/dbcoliveira/dag/master/graph.png]]
+<h1 align="center">
+    <img src="https://raw.githubusercontent.com/dbcoliveira/dag/master/graph.png" alt="graphvizz">
+</h1>
 
-TODO
+# TODO
 
 - CYPHER format support.
 - Search engine capability.
