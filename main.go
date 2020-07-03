@@ -84,7 +84,7 @@ func main() {
 
 	var search Search
 	search.New(john)
-	search.ShowGraph()
+	search.ExportDOT("My_exported_DOT_graph")
 	fmt.Println("isCyclic():", search.isCyclic())
 	fmt.Println(john.Edges[0].timeSinceCreation())
 	os.Exit(0)

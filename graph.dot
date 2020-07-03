@@ -1,0 +1,18 @@
+digraph My_exported_DOT_graph {
+John -> Foobar[label=WORKS];
+John -> Alice[label=HUSBAND];
+John -> Alice[label=HOUSEHOLD];
+John -> Doe[label=PARENT];
+Foobar -> Bob[label=WORKS];
+Bob -> Foobar Group[label=WORKS];
+Alice -> John[label=HOUSEHOLD];
+Alice -> Doe[label=PARENT];
+Alice -> Eve[label=PARENT];
+Alice -> Alice[label=SELF];
+Doe -> John[label=SON];
+Doe -> Alice[label=SON];
+Doe -> Eve[label=SIBLING];
+Eve -> Doe[label=SIBLING];
+Eve -> John[label=SON];
+Eve -> Alice[label=SON];
+}
