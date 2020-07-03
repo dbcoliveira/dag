@@ -9,6 +9,8 @@ Exports the dag into DOT format: https://en.wikipedia.org/wiki/DOT_(graph_descri
     <img src="https://raw.githubusercontent.com/dbcoliveira/dag/master/graph.png" alt="graphvizz">
 </h1>
 
+produced by http://graphviz.it/#/new with graph.dot data
+
 # TODO
 
 - CYPHER format support.
